@@ -7,6 +7,8 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
  <div class = "wrapper for buttons" style= "text-align: center; overflow-y:hidden">
  <div class = "Add-Buttons" style="display: inline-block">
 {#  <span class="badge badge-default">{{ project_name }}</span>#}
@@ -14,6 +16,7 @@
 
      <p id="project_owner" style="display: none">{{ owner }}</p>
      {% if states %}
+
       <button id="addTask" data-toggle="modal" data-target="#addTaskModal" class="btn btn-default btn-round btn-sm">
           <i class="material-icons"> add </i>Add New Task</button>
      {% endif %}
